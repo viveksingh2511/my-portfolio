@@ -1,0 +1,89 @@
+.table{
+    margin-top: 50px;
+    height: 400px;
+}
+.circle {
+    background: #a3a3f0 !important;
+    height: 275px;
+    width: 300px;   
+    border-radius: 65% 65% 70% 70% / 45% 45% 100% 100%;
+    border:0px solid black;
+    overflow: auto;
+    position: relative;
+    
+}
+.link{
+    text-align: right;
+    width: 20%;
+    padding-right: 50px;
+}
+.detail{
+    width: 40%;
+}
+.profile{
+    width: 40%;
+    text-align: center;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.img{
+    height: 235px;
+    width: 244px;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
+.profile{
+    
+}
+.proff{
+    font-size: 25px;
+    color: lightblue;
+}
+.typing-animation {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 3s steps(14, end), blink-caret 1.75s step-end infinite;
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+    
+  /* delay each word by 1s */
+  .typing-animation span {
+    animation: wordtyping 3s steps(14, end) 1s forwards;
+  }
+  
+  @keyframes wordtyping {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @media only screen and (max-width:800px){
+    .detail{ margin-top:30px;}
+        .body{position:absolute;}
+        .profile{
+            position:relative;
+            bottom:150px;
+            right:150px;
+            height:80px;
+            width:80px;
+        }
+      
+       
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
